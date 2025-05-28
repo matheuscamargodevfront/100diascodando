@@ -88,7 +88,41 @@ font: bold;
 font-family:cursive;
 
 }
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
 
+  .titulo {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  label {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .input input {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .resultado {
+    width: 90%;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+}
 
 
 
