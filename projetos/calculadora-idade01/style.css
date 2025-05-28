@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center; /* centraliza na horizontal */
+  align-items: center;     /* centraliza na vertical */
+  height: 100vh;           /* ocupa a tela toda */
+  margin: 0;               /* tira espaçamento das bordas */
+}
+
+.container{
+ background-color: white;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ padding: 40px;
+ max-width: 600px;
+ border-radius: 30px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column; /* tudo em coluna, um embaixo do outro */
+  gap: 10px; /* espaço entre os itens */
+  align-items: center; /* centraliza tudo na horizontal */
+
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 15px;
+  border-radius: 25px;
+  background-color:cornflowerblue;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+  color: aliceblue;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #0062cc;
+}
+
+#resultado{
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
